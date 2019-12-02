@@ -1,6 +1,8 @@
 # NSXT-Terraform
 This repository contains a sample configuration that can be used to deploy networks off a tier-0 router in NSX-T. 
 
+This configuration will deploy a production and dev tier-1 routers. Each router also has two segments created that can be used for web and application tier workloads. 
+
 This type of configuration could be very useful in a homelab scenario where you wish to blow away networks and reconfigure the environment on a regular basis.
 
 At this current time this nsx-t terraform covers resources hanging off a tier-0 router. At the current time the NSX-T terraform provider does not cover more than this. 
