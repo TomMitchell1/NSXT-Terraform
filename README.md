@@ -7,6 +7,8 @@ This type of configuration could be very useful in a homelab scenario where you 
 
 At this current time this nsx-t terraform covers resources hanging off a tier-0 router. At the current time the NSX-T terraform provider does not cover more than this. 
 
+For information about Terraform and NSX-T integration, have a look at the provider documentation [link](https://www.terraform.io/docs/providers/nsxt/index.html "here").
+
 # Usage 
 
 To use this configuration there are a few changes that you will need to make. 
