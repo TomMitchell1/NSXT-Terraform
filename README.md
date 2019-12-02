@@ -11,6 +11,7 @@ At this current time this nsx-t terraform covers resources hanging off a tier-0 
 
 To use this configuration there are a few changes that you will need to make. 
 
+- Within the terraform.tfvars file, configure account information for your NSX-T environment to allow terraform access. 
 - Modify the overlay and vlan transport zone names to the display name of your configured transport zones. 
 - Change the ID associated with your tier-0 router. This can be found from within the NSX-T manager UI. 
 - Modify the 4 logical router downlink port subnets to the networks ranges you wish to configure on this subnet. The 10.0.x.x ranges used are just example ranges. 
